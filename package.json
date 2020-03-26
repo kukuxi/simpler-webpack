@@ -1,0 +1,28 @@
+{
+  "name": "simpler-webpack",
+  "version": "1.0.0",
+  "description": "简易版webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kukuxi/simpler-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kukuxi/simpler-webpack/issues"
+  },
+  "homepage": "https://github.com/kukuxi/simpler-webpack#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
