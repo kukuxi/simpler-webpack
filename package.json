@@ -1,28 +1,34 @@
 {
-  "name": "simpler-webpack",
-  "version": "1.0.0",
-  "description": "简易版webpack",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kukuxi/simpler-webpack.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kukuxi/simpler-webpack/issues"
-  },
-  "homepage": "https://github.com/kukuxi/simpler-webpack#readme",
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.1.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "name": "simpler-webpack",
+    "version": "1.0.0",
+    "description": "简易版webpack",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kukuxi/simpler-webpack.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kukuxi/simpler-webpack/issues"
+    },
+    "homepage": "https://github.com/kukuxi/simpler-webpack#readme",
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.1.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "babel-traverse": "^6.26.0",
+        "babylon": "^6.18.0",
+        "babel-preset-env": "^1.7.0"
     }
-  }
 }
