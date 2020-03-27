@@ -1,3 +1,3 @@
 export function playBasketball() {
-  console.log("I llike playing basketball");
+  return "I llike playing basketball";
 }
